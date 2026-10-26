@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-ink: #1f2d24; /* testo, bottoni pieni, bordi */
+  --color-sand: #ffffff; /* testo sui bottoni pieni e sulle barre */
+  --color-clay: #2f6f4e; /* accento: oggi, arrivi, focus, messaggi */
+  --color-paper: #eef2ea; /* sfondo pagina */
+  --color-card: #fbfcf9; /* calendario e card */
+  --color-section: #dde6d6; /* intestazioni di categoria (Standard, Superior) */
+  --color-weekend: #e6ece1; /* colonne sabato e domenica, "Fuori servizio" */
+  --color-line: #cbd6c3; /* linee della griglia */
+  --font-display: Georgia, 'Times New Roman', serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+  }
+}

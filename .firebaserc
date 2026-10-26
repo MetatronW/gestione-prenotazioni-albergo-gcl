@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "hotel-california-gcl-react"
+  },
+  "targets": {
+    "hotel-california-gcl-react": {
+      "hosting": {
+        "hotel": [
+          "hotel-california-gcl"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
